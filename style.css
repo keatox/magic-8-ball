@@ -99,35 +99,35 @@ body #fortune, #message{
 
 .bolt1{
     left: 25px;
-    background:transparent url(bolt1.png) top center;
+    background:transparent url(images/bolt1.png) top center;
     animation:lightning-flash 6s linear infinite;
 }
 
 .bolt2{
     right: 25px;
-    background: transparent url(bolt2.png) top center;
+    background: transparent url(images/bolt2.png) top center;
     animation: lightning-flash 6s linear infinite 2s;
 }
 
 .bolt3{
     right: 40px;
-    background: transparent url(bolt3.png) top center;
+    background: transparent url(images/bolt3.png) top center;
     animation: lightning-flash 6s linear infinite 3s;
 }
 
 .stars {
-    background:#000 url(stars.png) repeat top center;
+    background:#000 url(images/stars.png) repeat top center;
     z-index: 0;
 }
 
 .twinkling{
-    background:transparent url(twinkling.png) repeat top center;
+    background:transparent url(images/twinkling.png) repeat top center;
     z-index: 1;
     animation:twinkle-move 200s linear infinite;
 }
 
 .clouds{
-    background:transparent url(clouds.png) repeat top center;
+    background:transparent url(images/clouds.png) repeat top center;
     z-index: 2;
     opacity: 0.5;
     animation:cloud-move 200s linear infinite;
