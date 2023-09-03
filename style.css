@@ -120,18 +120,18 @@ body #fortune, #message{
 }
 
 .stars {
-    background:#000 url(images/stars.png) repeat top center;
+    background:#000 url(images/stars.png) repeat center;
     z-index: 0;
 }
 
 .twinkling{
-    background:transparent url(images/twinkling.png) repeat top center;
+    background:transparent url(images/twinkling.png) repeat center;
     z-index: 1;
     animation:twinkle-move 200s linear infinite;
 }
 
 .clouds{
-    background:transparent url(images/clouds.png) repeat top center;
+    background:transparent url(images/clouds.png);
     z-index: 2;
     opacity: 0.5;
     animation:cloud-move 200s linear infinite;
